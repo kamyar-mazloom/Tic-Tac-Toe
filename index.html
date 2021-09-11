@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe Odin</title>
+<!-- Title font family  -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+ <!-- X O font family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+<script  src="./Script.js" defer></script>
+</head>
+<body class="body">
+<div class="header">
+  Tic-Tac-Toe
+</div>
+<div class="textBox" id="textBox"></div>
+<div class="board">
+  <div class="cell" id="1" onclick="play(this.id)"></div>
+  <div class="cell" id="2" onclick="play(this.id)"></div>
+  <div class="cell" id="3" onclick="play(this.id)"></div>
+  <div class="cell" id="4" onclick="play(this.id)"></div>
+  <div class="cell" id="5" onclick="play(this.id)"></div>
+  <div class="cell" id="6" onclick="play(this.id)"></div>
+  <div class="cell" id="7" onclick="play(this.id)"></div>
+  <div class="cell" id="8" onclick="play(this.id)"></div>
+  <div class="cell" id="9" onclick="play(this.id)"></div>
+</div>
+<div class="resetBtn" onclick="reset()">Restart</div>
+</body>
+</html>
